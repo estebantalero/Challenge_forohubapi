@@ -81,16 +81,6 @@
     Documentacion
 </h2>
 
-![Auntenticacion_Cursos](https://github.com/user-attachments/assets/6693f14d-c342-44f0-bba1-9e9a19550a98)
-![Documemntacion_Curso](https://github.com/user-attachments/assets/10c72ea8-5b61-40df-8068-91f72e2ed6c0)
-
-![Documemntacion_Respuestas](https://github.com/user-attachments/assets/60c389bb-7b89-4710-b903-a3d43d8807eb)
-![Documemntacion_Topicos](https://github.com/user-attachments/assets/9ec56bbb-b080-4c20-b2cc-e59b218d871c)
-
-![Test insomnia](https://github.com/user-attachments/assets/59e0ae3d-0fb7-4901-8280-5908e90f0f5c)
-
-
-
 <p>
     Se implemento Swagger para documentar la aplicación.
 </p>
@@ -121,15 +111,13 @@ En el body se obtiene el token para autenticar todos los test
 ![Token](https://github.com/user-attachments/assets/b8782612-6f06-45af-9f89-4fac7ecfe73d)
 
 <p>
-    Copiamos el token y lo insertamos dentro de Autorize , en el campo value y clickeamos Authorize.
+    Se realiza la comprobación del token desde el controller de usuarios
 </p>
 
-![ubicacion Authorize](img/img3.png)
-
-![Available authorizations](img/img4.png)
+![Auntenticacion_Cursos](https://github.com/user-attachments/assets/6693f14d-c342-44f0-bba1-9e9a19550a98)
 
 <p>
-    Ahora estamos listos para usar la API.
+    Una vez utilizado el token se puede hacer uso de las demás funciones de la API
 </p>
 
 <p>
@@ -140,14 +128,12 @@ En el body se obtiene el token para autenticar todos los test
     Request listado de Topicos.
 </p>
 
-![request listado de topico](img/img5.png)
+![Documemntacion_Curso](https://github.com/user-attachments/assets/10c72ea8-5b61-40df-8068-91f72e2ed6c0)
+![Documemntacion_Respuestas](https://github.com/user-attachments/assets/60c389bb-7b89-4710-b903-a3d43d8807eb)
+![Documemntacion_Topicos](https://github.com/user-attachments/assets/9ec56bbb-b080-4c20-b2cc-e59b218d871c)
 
 <p>
-    Response listado de Topicos.
+   Se realizan tambien la configuracion de test desde la aplicacion de insomnia
 </p>
 
-![response listado topicos](img/img6.png)
-
-<p>
-    Cabe destacar que todos los listados estan paginados.
-</p>
+![Test insomnia](https://github.com/user-attachments/assets/59e0ae3d-0fb7-4901-8280-5908e90f0f5c)
