@@ -120,14 +120,6 @@ En el body se obtiene el token para autenticar todos los test
     Una vez utilizado el token se puede hacer uso de las demás funciones de la API
 </p>
 
-<p>
-    A modo de ejemplo ponemos imagenes de como listar los topicos.
-</p>
-
-<p>
-    Request listado de Topicos.
-</p>
-
 ![Documemntacion_Curso](https://github.com/user-attachments/assets/10c72ea8-5b61-40df-8068-91f72e2ed6c0)
 ![Documemntacion_Respuestas](https://github.com/user-attachments/assets/60c389bb-7b89-4710-b903-a3d43d8807eb)
 ![Documemntacion_Topicos](https://github.com/user-attachments/assets/9ec56bbb-b080-4c20-b2cc-e59b218d871c)
