@@ -81,12 +81,25 @@
     Documentacion
 </h2>
 
+![Auntenticacion_Cursos](https://github.com/user-attachments/assets/6693f14d-c342-44f0-bba1-9e9a19550a98)
+![Documemntacion_Curso](https://github.com/user-attachments/assets/10c72ea8-5b61-40df-8068-91f72e2ed6c0)
+
+![Documemntacion_Respuestas](https://github.com/user-attachments/assets/60c389bb-7b89-4710-b903-a3d43d8807eb)
+![Documemntacion_Topicos](https://github.com/user-attachments/assets/9ec56bbb-b080-4c20-b2cc-e59b218d871c)
+![Login_Autenticacion](https://github.com/user-attachments/assets/1afb0b52-3cfa-4c9a-b072-cc9fa9290bf0)
+![Test insomnia](https://github.com/user-attachments/assets/59e0ae3d-0fb7-4901-8280-5908e90f0f5c)
+![Token](https://github.com/user-attachments/assets/b8782612-6f06-45af-9f89-4fac7ecfe73d)
+
+
 <p>
-    Se implemento Swagger para documentar la aplicación, con el objetivo de generar
-    interfaz amigable y accesible.
+    Se implemento Swagger para documentar la aplicación.
 </p>
 
-![Interfaz de Swagger](img/img.png)
+<p>
+    Funciones de testeo para el Login en la API.
+</p>
+
+![Documemntacion_Login](https://github.com/user-attachments/assets/2892b207-e716-47a6-a012-26885ad13200)
 
 <p>
     Para poder hacer uso de la API es necesario cargar un usuario en bd, por razones de tiempo
