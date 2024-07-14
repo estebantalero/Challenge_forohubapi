@@ -152,19 +152,3 @@ pruebas.
 <p>
     Cabe destacar que todos los listados estan paginados.
 </p>
-
-<h2>
-    Estado del proyecto
-</h2>
-
-<ul>
-    <li>
-        El desafio planteado por <a href="https://www.aluracursos.com/">Alura latam</a> y <a href="https://www.oracle.com/ar/">Oracle</a> esta completo.
-    </li>
-    <li>
-        Ademas se agregaron end point para: crear, leer, modificar y borrar, tanto cursos, como respuestas.
-A modo de desafio personal.
-    </li>
-</ul>
-
-<p>A modo personal resta generar end point para usuarios y generar autorizacion por roles en toda la API.</p>
