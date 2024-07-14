@@ -86,9 +86,9 @@
 
 ![Documemntacion_Respuestas](https://github.com/user-attachments/assets/60c389bb-7b89-4710-b903-a3d43d8807eb)
 ![Documemntacion_Topicos](https://github.com/user-attachments/assets/9ec56bbb-b080-4c20-b2cc-e59b218d871c)
-![Login_Autenticacion](https://github.com/user-attachments/assets/1afb0b52-3cfa-4c9a-b072-cc9fa9290bf0)
+
 ![Test insomnia](https://github.com/user-attachments/assets/59e0ae3d-0fb7-4901-8280-5908e90f0f5c)
-![Token](https://github.com/user-attachments/assets/b8782612-6f06-45af-9f89-4fac7ecfe73d)
+
 
 
 <p>
@@ -102,37 +102,23 @@
 ![Documemntacion_Login](https://github.com/user-attachments/assets/2892b207-e716-47a6-a012-26885ad13200)
 
 <p>
-    Para poder hacer uso de la API es necesario cargar un usuario en bd, por razones de tiempo
-no se a generado un end point para realizar tal cosa, por lo tanto debe realizarse de forma la inserción
-en la bd "<code>INSERT INTO usuarios (nombre, email, contrasenia)
-VALUES ('su nombre', 'su email' , 'contraseña');</code>".
-Cabe destacar que la contraseña debe de estar cifrada con BCrypt a la hora de guardarla en la db.
+    Para poder hacer de la API es necesario crear un usuario en la base de datos USUARIOS, para esto se be hacer directamente en la base de datos con el siguiente comando.
+  
+"INSERT INTO usuarios (nombre, email, contrasenia) VALUES ('su nombre', 'su email' , 'contraseña');"
+
 </p>
 
 <p>
-    Una vez realizada la carga de un nuevo usuario, podemos hacer uso de la interface brindada por Swagger
-para poder testear el uso de la API.
+    Después de crear el usuario se puede obtener el token desde la interfaz de Swagger.
 </p>
+
+![Login_Autenticacion](https://github.com/user-attachments/assets/1afb0b52-3cfa-4c9a-b072-cc9fa9290bf0)
 
 <p>
-    Como primer paso, para poder usar la interfaz de Swagger, debemos logearnos con los datos del usuario generado
-anteriormente.
+En el body se obtiene el token para autenticar todos los test
 </p>
 
-<p>
-    Ir a autenticacion-controller, desplegamos y clickeamos Try it now.
-<br>
-Cargamos los datos de login en el request body y clic en Execute.
-</p>
-
-![autenticacion-controller](img/img1.png)
-
-<p>
-    Como respuesta obtenemos un estado 200, en cuyo body se encuentra el token generado para poder autenticar las demás 
-pruebas.
-</p>
-
-![respuesta de login](img/img2.png)
+![Token](https://github.com/user-attachments/assets/b8782612-6f06-45af-9f89-4fac7ecfe73d)
 
 <p>
     Copiamos el token y lo insertamos dentro de Autorize , en el campo value y clickeamos Authorize.
