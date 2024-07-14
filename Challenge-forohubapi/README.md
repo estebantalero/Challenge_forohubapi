@@ -15,27 +15,27 @@
 </p>
 <ul>
   <li>
-    Crear nuevo tópico;
+    Crear nuevo tópico
   </li>
   <li>
-    Mostrar todos los tópicos creados;
+    Mostrar todos los tópicos creados
   </li>
   <li>
-    Mostrar tópico específico;
+    Mostrar tópico específico
   </li>
   <li>
-    Mostrar tópico específico;
+    Mostrar tópico específico
   </li>
   <li>
-    Actualizar tópico;
+    Actualizar tópico
   </li>
   <li>
-    Eliminar tópico.
+    Eliminar tópico
   </li>
 </ul>
 
 <h2>
-  Configuraciones del entorno
+  Configuraciones entorno
 </h2>
 
 <ul>
@@ -43,10 +43,10 @@
     Java (versión 17) 
   </li>
   <li>
-    Maven (versión 4)
+    Maven
   </li>
   <li>
-    Spring Boot (versión 3.3.0)
+    Spring Boot (versión 3.3.1)
     Dependencias:
       <ul>
         <li>
